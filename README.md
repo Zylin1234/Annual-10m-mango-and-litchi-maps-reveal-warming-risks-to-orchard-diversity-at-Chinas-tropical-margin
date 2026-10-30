@@ -16,8 +16,8 @@ resolution reported in the manuscript is **10 m**.
 | --- | --- |
 | [AEF-OCE-Net](AEF-OCE-Net/README.md) | Model source, architecture, installation and running instructions, internal validation results, comparisons, and ablations |
 | [Spatial distribution maps](spatial_distribution_maps/README.md) | The nine annual maps, year-specific accuracy, raster metadata, class codes, and download links |
-| [Model accuracy CSV](AEF-OCE-Net/model_accuracy.csv) | V34 Table 3 in a machine-readable form |
-| [Annual map accuracy CSV](spatial_distribution_maps/annual_map_accuracy.csv) | V34 Table 4, with all six reported accuracy metrics for each year |
+| [Model accuracy CSV](AEF-OCE-Net/model_accuracy.csv) |  Table 3 in a machine-readable form |
+| [Annual map accuracy CSV](spatial_distribution_maps/annual_map_accuracy.csv) |  Table 4, with all six reported accuracy metrics for each year |
 | [Map checksums](spatial_distribution_maps/checksums.sha256) | SHA-256 checksums for the nine GeoTIFFs |
 | [Dependencies](requirements.txt) | Python packages used by the source snapshot |
 
