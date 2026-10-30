@@ -1,11 +1,11 @@
 model,implementation_variant,evaluation_protocol,oa,kappa,miou,mango_f1,litchi_f1,parameters_million,training_time_seconds,training_time_unit,inference_mean_ms_per_128x128_tile,inference_sd_ms_per_128x128_tile,inference_device,source
-AEF-OCE-Net,C3_hierarchical,fixed_2025_validation,0.9626,0.8850,0.8750,0.8828,0.9362,0.150,36.30,per_epoch,1.969,0.240,GPU_FP32,V34_Table_3
-AEF-OCE-Net without adapter,C3_minus_adapter,fixed_2025_validation,0.9616,0.8806,0.8707,0.8765,0.9350,0.148,35.31,per_epoch,0.882,0.068,GPU_FP32,V34_Table_3
-AEF-OCE-Net without OCE,C3_minus_oce,fixed_2025_validation,0.9609,0.8778,0.8662,0.8759,0.9281,0.132,33.68,per_epoch,1.122,0.119,GPU_FP32,V34_Table_3
-U-Net,,fixed_2025_validation,0.9534,0.8580,0.8483,0.8578,0.9189,7.781,65.09,per_epoch,2.593,0.174,GPU_FP32,V34_Table_3
-DeepLabV3+,,fixed_2025_validation,0.9503,0.8493,0.8356,0.8467,0.9078,3.852,65.64,per_epoch,1.622,0.176,GPU_FP32,V34_Table_3
-PSPNet,,fixed_2025_validation,0.9289,0.7856,0.7747,0.7957,0.8557,3.031,63.56,per_epoch,1.575,0.144,GPU_FP32,V34_Table_3
-LightMLP,,fixed_2025_validation,0.8097,0.7020,0.6938,0.9138,0.7205,0.0168,18.53,per_complete_fit,9.791,1.113,CPU,V34_Table_3
-Linear probe,,fixed_2025_validation,0.8015,0.6916,0.6826,0.9002,0.7316,0.000195,2.91,per_complete_fit,3.407,0.122,CPU,V34_Table_3
-Random forest,,fixed_2025_validation,0.8289,0.7336,0.7173,0.9036,0.7759,,7.39,per_complete_fit,67.432,12.867,CPU,V34_Table_3
-XGBoost,,fixed_2025_validation,0.8317,0.7369,0.7223,0.9151,0.7651,,7.59,per_complete_fit,36.397,5.357,CPU,V34_Table_3
+AEF-OCE-Net,C3_hierarchical,fixed_2025_validation,0.9626,0.8850,0.8750,0.8828,0.9362,0.150,36.30,per_epoch,1.969,0.240,GPU_FP32,final_model_comparison
+AEF-OCE-Net without adapter,C3_minus_adapter,fixed_2025_validation,0.9616,0.8806,0.8707,0.8765,0.9350,0.148,35.31,per_epoch,0.882,0.068,GPU_FP32,final_model_comparison
+AEF-OCE-Net without OCE,C3_minus_oce,fixed_2025_validation,0.9609,0.8778,0.8662,0.8759,0.9281,0.132,33.68,per_epoch,1.122,0.119,GPU_FP32,final_model_comparison
+U-Net,,fixed_2025_validation,0.9534,0.8580,0.8483,0.8578,0.9189,7.781,65.09,per_epoch,2.593,0.174,GPU_FP32,final_model_comparison
+DeepLabV3+,,fixed_2025_validation,0.9503,0.8493,0.8356,0.8467,0.9078,3.852,65.64,per_epoch,1.622,0.176,GPU_FP32,final_model_comparison
+PSPNet,,fixed_2025_validation,0.9289,0.7856,0.7747,0.7957,0.8557,3.031,63.56,per_epoch,1.575,0.144,GPU_FP32,final_model_comparison
+LightMLP,,fixed_2025_validation,0.8097,0.7020,0.6938,0.9138,0.7205,0.0168,18.53,per_complete_fit,9.791,1.113,CPU,final_model_comparison
+Linear probe,,fixed_2025_validation,0.8015,0.6916,0.6826,0.9002,0.7316,0.000195,2.91,per_complete_fit,3.407,0.122,CPU,final_model_comparison
+Random forest,,fixed_2025_validation,0.8289,0.7336,0.7173,0.9036,0.7759,,7.39,per_complete_fit,67.432,12.867,CPU,final_model_comparison
+XGBoost,,fixed_2025_validation,0.8317,0.7369,0.7223,0.9151,0.7651,,7.59,per_complete_fit,36.397,5.357,CPU,final_model_comparison
