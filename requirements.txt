@@ -1,0 +1,8 @@
+numpy
+pandas
+torch
+zarr<3
+numcodecs
+matplotlib
+rasterio
+

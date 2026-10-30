@@ -1,0 +1,42 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+.conda/
+
+# Local editor settings
+.idea/
+.vscode/
+
+# External datasets and generated outputs
+/data/
+/outputs/
+/runs/
+/checkpoints/
+*.zarr/
+*.npz
+*.npy
+*.tif
+*.tiff
+
+# Model weights and serialized checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+
+# Local secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+
+# Operating-system files
+.DS_Store
+Thumbs.db
