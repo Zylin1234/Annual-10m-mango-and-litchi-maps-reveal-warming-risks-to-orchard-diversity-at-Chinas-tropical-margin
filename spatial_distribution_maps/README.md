@@ -5,13 +5,7 @@ This folder contains nine annual GeoTIFF prediction maps for the study
 China's tropical margin*, one for each year from 2017 through 2025.
 The manuscript's "litchi" and the filenames' "lychee" refer to the same crop.
 
-## Filenames
 
-All maps use `Hainan_<year>_mango_lychee_AEF_OCE_pred.tif`.
-The 2017 and 2019 source files were named `Hainan_2017.tif` and
-`Hainan_2019.tif`; their published filenames have been standardized.
-Each published TIFF is byte-for-byte identical to its source. Pixel values,
-compression, georeferencing, and embedded metadata have been preserved.
 
 ## Raster metadata
 
