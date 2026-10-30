@@ -35,10 +35,19 @@ The split includes counties represented in both training and validation and
 must not be described as county-independent validation.
 
 The repository contains the unchanged Python sources and their dependency list.
-Training data, model weights, outputs, and the fixed-split manifest are not included.
+Training data, model weights, and the fixed-split manifest are not included.
 AEF embeddings must be obtained separately; this code does not train the AEF
 foundation model or generate its satellite embeddings. This snapshot alone does
 not provide complete reproduction of all manuscript experiments and results.
+
+## Annual spatial distribution maps
+
+Hainan mango and lychee prediction maps for 2017-2025 are available as GeoTIFFs in
+[`spatial_distribution_maps/`](spatial_distribution_maps/). All nine files follow
+the naming convention `Hainan_<year>_mango_lychee_AEF_OCE_pred.tif`.
+The maps retain their original pixel values and geospatial metadata; only the
+published filenames have been standardized. See the folder README for file
+details and `checksums.sha256` for integrity verification.
 
 ## Setup
 

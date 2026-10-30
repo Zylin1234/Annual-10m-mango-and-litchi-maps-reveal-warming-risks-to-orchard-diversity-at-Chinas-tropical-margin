@@ -24,6 +24,9 @@ env/
 *.tif
 *.tiff
 
+# Published annual prediction maps
+!/spatial_distribution_maps/*.tif
+
 # Model weights and serialized checkpoints
 *.pt
 *.pth
