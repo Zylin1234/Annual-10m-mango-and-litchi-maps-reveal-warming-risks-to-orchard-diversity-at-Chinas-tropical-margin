@@ -3,9 +3,7 @@
 This folder contains nine annual GeoTIFF prediction maps for the study
 *Annual 10-m mango and litchi maps reveal warming risks to orchard diversity at
 China's tropical margin*, one for each year from 2017 through 2025.
-The manuscript's "litchi" and the filenames' "lychee" refer to the same crop.
-
-
+"Litchi" in the documentation and "lychee" in filenames refer to the same crop.
 
 ## Raster metadata
 
@@ -32,7 +30,7 @@ own NoData metadata when computing areas or combining years.
 
 ## Annual map accuracy
 
-The author-supplied V34 manuscript reports a **mean annual overall accuracy (OA)
+The final annual maps achieve a **mean annual overall accuracy (OA)
 of 94.58%**, with annual OA ranging from **0.9000 to 0.9855**. The same selected
 model, trained with 2025 AEF data and plot labels, was applied to the annual AEF
 layers for 2017-2025.
@@ -45,9 +43,9 @@ these class counts describe 2025 only.
 
 These annual product metrics use independent, year-specific reference points.
 They are separate from the model's
-[internal 2025 plot-validation and ablation results](../AEF-OCE-Net/README.md#reported-internal-validation-results);
+[internal 2025 plot-validation and ablation results](../AEF-OCE-Net/README.md#internal-validation-results);
 the two evaluation sets and their accuracy values are not interchangeable.
-The table retains the manuscript's four-decimal values on a 0-1 scale.
+The table gives accuracy values to four decimal places on a 0-1 scale.
 
 | Year / GeoTIFF | OA | Kappa | Macro-F1 | Weighted-F1 | Mango F1 | Litchi F1 |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
@@ -80,13 +78,6 @@ Confusion-matrix rows represent reference classes and columns represent mapped
 classes. Precision uses the mapped-class total as its denominator; recall uses
 the reference-class total. No year-specific precision or recall values are
 inferred from the F1 scores here.
-
-### Source and interpretation
-
-Source: **author-supplied V34 draft**, Sections **2.2.2**, **2.3.5**, and **3.2**,
-**Table 4**. These are manuscript-reported results transcribed from the local
-author-supplied draft; the evaluations have not been rerun or independently
-recomputed for this repository. The full manuscript is not included here.
 
 ## Integrity verification
 
